@@ -131,11 +131,11 @@ body {
     width: 1170px;
     height: 50px;
     flex-shrink: 0;
+    padding: 97px 0;
 }
 
 .logoes {
     width: 156px;
     height: 50px;
     flex-shrink: 0;
-    padding: 97px 0;
 }
