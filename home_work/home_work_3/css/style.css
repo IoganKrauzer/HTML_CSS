@@ -3,20 +3,12 @@ a {
 }
 
 body {
-    width: 1920px;
-    height: 700px;
-    flex-shrink: 0;
     background: #FFF;
 }
 
 .header {
     padding-top: 40px;
-    padding-bottom: 84px;
-}
-
-.header-menu {
-    padding-top: 11px;
-    padding-bottom: 12px;
+    padding-bottom: 40px;
 }
 
 .header-menu-link-orange {
@@ -28,7 +20,11 @@ body {
     line-height: normal;
 }
 
-.header-menu-link {
+.change-text-color {
+    color: #F25822;
+}
+
+.header-menu {
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
@@ -37,17 +33,7 @@ body {
     line-height: normal;
 }
 
-.logo {
-    width: 35px;
-    height: 40px;
-    flex-shrink: 0;
-}
-
 .grow-be {
-    padding: 5px 0 5px 0;
-}
-
-.grow {
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 24px;
@@ -56,16 +42,8 @@ body {
     line-height: normal;
 }
 
-.be {
-    color: #F25822;
-    font-family: Gilroy-Bold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-}
-
 .main-content {
+    padding-top: 44px;
     padding-bottom: 162px;
 }
 
@@ -87,18 +65,6 @@ body {
     line-height: normal;
     margin-top: 17px;
     margin-bottom: 37px;
-}
-
-.main-content-buttons {
-    width: 302px;
-    height: 50px;
-    flex-shrink: 0;
-}
-
-.main-content-img {
-    width: 544.814px;
-    height: 374.843px;
-    flex-shrink: 0;
 }
 
 .start {
