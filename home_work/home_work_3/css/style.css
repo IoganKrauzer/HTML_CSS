@@ -54,6 +54,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 17px;
 }
 
 .main-content-left-sub-header {
@@ -63,7 +64,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 17px;
     margin-bottom: 37px;
 }
 
