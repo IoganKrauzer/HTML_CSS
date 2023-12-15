@@ -11,15 +11,6 @@ body {
     padding-bottom: 40px;
 }
 
-.header-menu-link-orange {
-    color: #F25822;
-    font-family: Gilroy-SemiBold;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
 .change-text-color {
     color: #F25822;
 }
@@ -98,10 +89,4 @@ body {
     height: 50px;
     flex-shrink: 0;
     padding: 97px 0;
-}
-
-.logoes {
-    width: 156px;
-    height: 50px;
-    flex-shrink: 0;
 }
