@@ -6,6 +6,11 @@ body {
     background: #FFF;
 }
 
+.center {
+padding-left: calc(50% - 1170px / 2);
+padding-right: calc(50% - 1170px / 2);
+}
+
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
