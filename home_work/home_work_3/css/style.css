@@ -40,10 +40,6 @@ body {
     align-items: center;
 }
 
-/* .change-text-color {
-    color: #F25822;
-} */
-
 .header-menu {
     display: flex;
     gap: 35px;
