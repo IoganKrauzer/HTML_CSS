@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700;800&display=swap');
+
+
 a {
     text-decoration: none;
 }
 
 .center {
-    padding-left: calc(50% - 1170px / 2);
-    padding-right: calc(50% - 1170px / 2);
+    padding-left: calc(50% - 1150px / 2);
+    padding-right: calc(50% - 1150px / 2);
 }
 
 body {
@@ -19,16 +22,22 @@ body {
     gap: 40px;
     justify-content: center;
     align-items: center;
-}
-
-.main-header-navigation-menu-link {
-    color: #FFF;
-    font-family: Open Sans;
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans";
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
+
+/* .main-header-navigation-menu-link {
+    color: var(--ffffff, #FFF);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} */
 
 .main-content {
     padding-top: 160px;
@@ -40,7 +49,7 @@ body {
 
 .main-content-left-sub-header {
     color: var(--3-a-68-b-8, #3A68B8);
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -51,7 +60,7 @@ body {
 
 .main-content-left-header {
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 55px;
     font-style: normal;
     font-weight: 800;
@@ -63,7 +72,7 @@ body {
 
 .main-content-left-text {
     color: var(--ffffff, #FFF);
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -107,4 +116,70 @@ body {
     padding-bottom: 99px;
     display: flex;
     justify-content: space-between;
+}
+
+.awards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+
+.awards-subtitle {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 31.25px */
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.awards-text {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+    opacity: 0.7;
+    padding-bottom: 30px;
+}
+
+.awards-img {
+    margin-bottom: 30px;
+}
+
+.awards-item {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awards-big {
+    display: grid;
+    grid-area: 2 / 1 / 4 /3;
+    align-items: stretch;
+    justify-items: center;
+}
+
+.awards-big-img {
+    margin-bottom: 60px;
+}
+
+.awards-big-subtitle {
+    margin-bottom: 60px;
+}
+
+.awards-big-text {
+    padding-bottom: 114px;
 }
