@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:wght@300;500;600;700;800&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+
+.center {
+    padding-left: calc(50% - 1140px / 2);
+    padding-right: calc(50% - 1140px / 2);
+}
+
+.main_header {
+    background-color: #222;
+    padding: 18px 32px 18px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left_group {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header_right_group {
+    display: flex;
+    gap: 33px;
+}
+
+.brand_section {
+    background-color: #F1E4E6;
+    display: flex;
+    gap: 63px;
+}
+
+.brand_right_section {
+    display: flex;
+    gap: 16px;
+    padding-top: 289px;
+    padding-bottom: 382px;
+}
+
+.brand_text_group {}
+
+.brand_header {
+    color: #222;
+    font-family: "Lato";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.brand_subtitle {
+    color: #222;
+    font-family: "Lato";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.change_color {
+    color: #F16D7F;
+}
+
+.center {
+    padding-left: calc(50% - 1140px / 2);
+    padding-right: calc(50% - 1140px / 2);
+}
+
