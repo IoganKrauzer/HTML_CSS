@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Open+Sans:wght@300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 a {
     text-decoration: none;
 }
 
+svg:hover path {
+    fill: red;
+}
 
 .center {
     padding-left: calc(50% - 1140px / 2);
@@ -12,7 +15,8 @@ a {
 
 .main_header {
     background-color: #222;
-    padding: 18px 32px 18px 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,12 +25,13 @@ a {
 .header_left_group {
     display: flex;
     gap: 41px;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .header_right_group {
     display: flex;
     gap: 33px;
+    align-items: center;
 }
 
 .brand_section {
