@@ -273,28 +273,38 @@ a {
     background-image: url(../img/footer/center/beach.png);
     background-color: rgba(244, 244, 244, 0.70);
     background-blend-mode: overlay;
-    background-size: cover;
+    /* background-size: cover; */
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-top: 97px;
     padding-bottom: 126px;
-    gap: 223.26px;
-    
+    width: 60%;
+}
+
+.footer_center_left_img {
+    margin-bottom: 30px;
+    width: 96px;
+height: 96px;
+opacity: 1;
 }
 
 .footer_center_left {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 360px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+
 }
 
 .footer_center_right {
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .footer_center_left_text {
@@ -307,14 +317,19 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    opacity: 1;
 }
 
 .text_italic {
     font-style: italic;
 }
 
+.footer_center_right{
+    width: 30%;
+}
+
 .footer_center_right_h2 {
-    width: 557px;
+    width: auto;
     color: #222224;
     text-align: center;
     font-family: "Lato";
@@ -406,6 +421,7 @@ a {
 .social_char {
     position: absolute;
 }
+
 
 .footer_section {
     display: flex;
